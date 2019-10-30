@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1572015255 source:c:\users\andrei\desktop\cti\programare\pregatire examen\proiect-poo_tenita_alexandru-cristian\main.cpp
+	<iostream>
+	"Matrice_complexa.h"
+
+1572015340 c:\users\andrei\desktop\cti\programare\pregatire examen\proiect-poo_tenita_alexandru-cristian\matrice_complexa.h
+	"Numar_complex.h"
+	<iostream>
+
+1572005583 c:\users\andrei\desktop\cti\programare\pregatire examen\proiect-poo_tenita_alexandru-cristian\numar_complex.h
+	<iostream>
+
+1572014713 source:c:\users\andrei\desktop\cti\programare\pregatire examen\proiect-poo_tenita_alexandru-cristian\matrice_complexa.cpp
+	"Matrice_complexa.h"
+	"Numar_complex.h"
+
+1572014001 source:c:\users\andrei\desktop\cti\programare\pregatire examen\proiect-poo_tenita_alexandru-cristian\numar_complex.cpp
+	"Numar_complex.h"
+	<iostream>
+
+1572386095 source:c:\users\andrei\desktop\cti\poo\proiect-poo_tenita_alexandru-cristian\main.cpp
+	<iostream>
+	"Informatii_complete.h"
+
+1572471822 c:\users\andrei\desktop\cti\poo\proiect-poo_tenita_alexandru-cristian\matrice_complexa.h
+	"Numar_complex.h"
+	<iostream>
+
+1572471822 c:\users\andrei\desktop\cti\poo\proiect-poo_tenita_alexandru-cristian\numar_complex.h
+	<iostream>
+
+1572470716 source:c:\users\andrei\desktop\cti\poo\proiect-poo_tenita_alexandru-cristian\matrice_complexa.cpp
+	"Matrice_complexa.h"
+	"Numar_complex.h"
+
+1572470717 source:c:\users\andrei\desktop\cti\poo\proiect-poo_tenita_alexandru-cristian\numar_complex.cpp
+	"Numar_complex.h"
+	<iostream>
+
+1572279455 c:\users\andrei\desktop\cti\poo\proiect-poo_tenita_alexandru-cristian\informatii_complete.h
+	"Matrice_complexa.h"
+	<iostream>
+
+1572470795 source:c:\users\andrei\desktop\cti\poo\proiect-poo_tenita_alexandru-cristian\informatii_complete.cpp
+	"Informatii_complete.h"
+
