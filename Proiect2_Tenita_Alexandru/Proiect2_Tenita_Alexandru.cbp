@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proiect2_Tenita_Alexandru" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Proiect2_Tenita_Alexandru" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Proiect2_Tenita_Alexandru" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="InchidereaZilei.out" />
+		<Unit filename="Inventar.in" />
+		<Unit filename="ListaCumpClient.in" />
+		<Unit filename="ListaDeCumparaturiClient" />
+		<Unit filename="Lista_produse.cpp" />
+		<Unit filename="Lista_produse.h" />
+		<Unit filename="Produs.cpp" />
+		<Unit filename="Produs.h" />
+		<Unit filename="ProdusCuBrand.cpp" />
+		<Unit filename="Tranzactii.cpp" />
+		<Unit filename="Tranzactii.h" />
+		<Unit filename="VinDeSoi.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

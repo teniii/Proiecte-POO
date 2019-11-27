@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1574891764 source:c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"Produs.h"
+	"Lista_produse.h"
+	"Tranzactii.h"
+	<string>
+	<cstring>
+	<typeinfo>
+
+1574887068 c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\produs.h
+	<fstream>
+
+1574887068 source:c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\produs.cpp
+	"Produs.h"
+	<iostream>
+	<cstring>
+	<cstdlib>
+
+1574873593 source:c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\produscubrand.cpp
+	"Produs.h"
+	<iostream>
+	<cstring>
+	<cstdlib>
+
+1574873593 source:c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\vindesoi.cpp
+	"Produs.h"
+	<iostream>
+	<cstring>
+	<cstdlib>
+
+1574886757 c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\lista_produse.h
+	"Produs.h"
+	<vector>
+
+1574891186 source:c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\lista_produse.cpp
+	"Lista_produse.h"
+	<vector>
+	<fstream>
+	<cstring>
+
+1574891748 c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\tranzactii.h
+	"Lista_produse.h"
+
+1574891783 source:c:\users\andrei\desktop\cti\an 2\poo\tema2\proiect2_tenita_alexandru\tranzactii.cpp
+	"Tranzactii.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<cstring>
+
