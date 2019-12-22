@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\andrei\desktop\cti\an 2\poo\proiect3_tenita_alexandru\main.cpp
+	<iostream>
+
+1577029165 source:c:\users\andrei\desktop\cti\an 2\poo\tema3\proiect3_tenita_alexandru\main.cpp
+	<iostream>
+	"Pizza.h"
+
+1577030448 c:\users\andrei\desktop\cti\an 2\poo\tema3\proiect3_tenita_alexandru\pizza.h
+	<unordered_map>
+	<vector>
+	<string>
+	<cmath>
+	<iostream>
+	"Ingredient.h"
+
+1577027482 c:\users\andrei\desktop\cti\an 2\poo\tema3\proiect3_tenita_alexandru\ingredient.h
+	<string>
+	<iostream>
+
+1577029037 source:c:\users\andrei\desktop\cti\an 2\poo\tema3\proiect3_tenita_alexandru\pizza.cpp
+	"Pizza.h"
+
+1577027482 source:c:\users\andrei\desktop\cti\an 2\poo\tema3\proiect3_tenita_alexandru\ingredient.cpp
+	"Ingredient.h"
+	<iostream>
+
+1576953693 source:c:\users\andrei\desktop\cti\an 2\poo\tema3\proiect3_tenita_alexandru\meniu.cpp
+
