@@ -1,2 +1,2 @@
 # Proiecte-POO
- Aici apar rezolvarile pentru proiectele primite la POO in anul universitar 2019-202
+ Aici apar rezolvarile pentru proiectele primite la POO in anul universitar 2019-2020
