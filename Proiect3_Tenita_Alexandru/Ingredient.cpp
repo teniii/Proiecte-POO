@@ -1,5 +1,6 @@
 #include "Ingredient.h"
 #include <iostream>
+#include <fstream>
 
 Ingredient :: Ingredient() {}
 
@@ -14,6 +15,7 @@ Ingredient& Ingredient:: operator = (const Ingredient& a)
 
 istream& operator >> (istream & in, Ingredient& a)
 {
+    std::getline(in, a.nume);
     cout<<"\nIntroduceti numele ingredientului: ";
     std::getline(in, a.nume);
 
@@ -23,6 +25,18 @@ istream& operator >> (istream & in, Ingredient& a)
     cout<<"\nCantitatea: ";
     in>>a.cantitate;
     cout<<endl;
+
+    return in;
+}
+
+ifstream& operator >> (ifstream & in, Ingredient& a)
+{
+    std::getline(in, a.nume);
+    std::getline(in, a.nume);
+
+    in>>a.pret_unitar;
+
+    in>>a.cantitate;
 
     return in;
 }

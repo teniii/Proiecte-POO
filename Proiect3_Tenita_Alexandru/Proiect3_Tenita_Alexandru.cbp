@@ -32,12 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Comenzi" />
 		<Unit filename="Ingredient.cpp" />
 		<Unit filename="Ingredient.h" />
+		<Unit filename="ListaDePizza.in" />
 		<Unit filename="Meniu.cpp" />
 		<Unit filename="Meniu.h" />
 		<Unit filename="Pizza.cpp" />
 		<Unit filename="Pizza.h" />
+		<Unit filename="docContabilitate.out" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

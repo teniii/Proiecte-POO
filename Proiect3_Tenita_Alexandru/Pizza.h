@@ -6,8 +6,10 @@
 #include <string>
 #include <cmath>
 #include <iostream>
+#include <fstream>
 #include "Ingredient.h"
 
+//clasa de baza cu metoda pur virtuala calcul_pret
 class Contabilitate{
 
 public:
@@ -19,9 +21,9 @@ class Pizza: public Contabilitate{
 protected:
     std::string nume;
     int nr_ingr;
-    //std::vector <Ingredient> v;
+    std::vector <Ingredient> ingr;
     const float pret_manopera= 30;
-    //static std::unordered_map <std::string, std::vector <Ingredient>> decod ;
+
 public:
 
     Pizza();
@@ -30,13 +32,15 @@ public:
     Pizza& operator = (const Pizza&);
     //Pizza& operator = (const PizzaOnline&);
 
-
     const float get_manopera();
+    inline string get_nume();
+    inline vector <Ingredient> get_ingr();
+
     virtual float calcul_pret();
     virtual void afisare();
 
-    friend istream& operator >> (istream&, Pizza);
-    friend class PizzaOnline;
+    friend ifstream& operator >> (ifstream&, Pizza&);
+    friend istream& operator >> (istream&, Pizza&);
 };
 
 class PizzaOnline: public Pizza{
@@ -53,8 +57,13 @@ public:
     virtual float calcul_pret();
     virtual void afisare();
 
+    friend ifstream& operator >> (ifstream&, PizzaOnline);
     friend istream& operator >> (istream&, PizzaOnline);
+
+
 };
+
+
 
 
 #endif // PIZZA_H_INCLUDED

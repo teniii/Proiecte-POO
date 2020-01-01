@@ -3,10 +3,13 @@
 
 #include <string>
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
-class Ingredient{
+class Ingredient
+{
+
 private:
     std::string nume;
     float pret_unitar;
@@ -18,6 +21,7 @@ public:
     ~Ingredient();
 
     Ingredient& operator = (const Ingredient&);
+    friend ifstream& operator >> (ifstream&, Ingredient&);
     friend istream& operator >> (istream&, Ingredient&);
     void afisare();
 
