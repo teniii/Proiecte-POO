@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1579094897 source:c:\users\ioana\desktop\tenitaalexandru_251\main.cpp
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+	"Masini.h"
+
+1579095439 c:\users\ioana\desktop\tenitaalexandru_251\masini.h
+	<bits/stdc++.h>
+	<iostream>
+	<fstream>
+	<cmath>
+
